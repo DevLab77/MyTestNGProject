@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- This is the testNG.xml file -->
+
+<suite name="SauceLab Test" verbose="1">
+    <parameter name="sauceurl" value="https://www.saucedemo.com/"/>
+    <parameter name="username" value="standard_user"/>
+    <parameter name="pw" value="secret_sauce"/>
+
+    <test name="sauce Login and Logout Validation">
+        <classes>
+            <class name="automatedScripts.SauceTest"/>
+        </classes>
+    </test>
+</suite>

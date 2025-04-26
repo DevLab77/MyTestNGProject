@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SauceLab Test2" verbose="1">
+
+    <parameter name="sauceurl" value="https://www.saucedemo.com/" />
+    <parameter name="username" value="standard_user" />
+    <parameter name="pw" value="secret_sauce" />
+    <parameter name="googleurl" value="https://www.google.com/" /> <!-- 🔵 Add this -->
+
+    <test name="sauce Login and Logout Validation">
+        <classes>
+            <class name="automatedScripts.GoogleTest" />
+        </classes>
+    </test>
+
+</suite>

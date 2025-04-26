@@ -1,0 +1,66 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<!-- This is testNG.xml file ..... -->
+
+
+<suite name="perform different Selenium Actions" verbose="1">
+    <parameter name="doiturl" value="https://www.letskodeit.com/practice"></parameter>
+    <parameter name="docurl" value="https://www.docker.com/"></parameter>
+
+
+
+
+    <test name="perform different Selenium Actions - Examples">
+        <classes>
+            <class name="diffActions.PerformActions"/>
+        </classes>
+    </test>
+
+
+
+
+</suite>
+
+
+
+
+        ++++++++++++++++++++++++++++++++++++++
+
+
+        +++++++++++++++++++++++++++++++++++++++
+
+
+        <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+        <!-- This is testNG.xml file ..... -->
+
+
+<suite name="perform different Selenium Actions" verbose="1">
+<parameter name="doiturl" value="https://www.letskodeit.com/practice"></parameter>
+<parameter name="docurl" value="https://www.docker.com/"></parameter>
+<parameter name="covurl" value="https://www.worldometers.info/coronavirus/"></parameter>
+
+
+
+
+<test name="perform different Selenium Actions - Examples">
+    <classes>
+        <class name="diffActions.PerformActions"/>
+    </classes>
+</test>
+
+
+<test name="Covid Case Count - Examples">
+    <classes>
+        <class name="diffActions.CovidApp"/>
+    </classes>
+</test>
+
+
+
+
+</suite>
+
+
