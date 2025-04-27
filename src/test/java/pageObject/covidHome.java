@@ -1,4 +1,4 @@
-package pageObject;
+/*package pageObject;
 
 public class covidHome {
 
@@ -33,3 +33,4 @@ import org.openqa.selenium.By;
     }
 
 }
+*/

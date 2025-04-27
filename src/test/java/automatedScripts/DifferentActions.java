@@ -90,9 +90,9 @@ public class DifferentActions {
 
     public void selectADropDown(String car) {
 
-        Select select = new Select(driver.findElement(By.xpath("//select[@id='carsselect']")));
+        Select select = new Select(driver.findElement(By.xpath("//select[@id='carselect']")));
         //Select by Visible text
-        select.selectByVisibleText("car");
+        select.selectByVisibleText("Honda");
         System.out.println("The dropdown is selected...");
     }
 

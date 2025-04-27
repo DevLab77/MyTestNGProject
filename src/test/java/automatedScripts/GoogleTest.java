@@ -20,7 +20,7 @@ public class GoogleTest {
 
         //Validate Google Logo...
 
-        if (driver.findElement(By.xpath("//img[contains(@alt, 'Google')]")).isDisplayed()) {
+        if (driver.findElement(By.xpath("//div[@class='k1zIA rSk4se']")).isDisplayed()) {
             //.findElement(By.xpath("")) This tries to locate one element using an XPath selector (the empty quotes "" should contain a valid XPath)
             //.isDisplayed() Returns true if the element is visible on the page (not hidden with display:none, etc.)
 
